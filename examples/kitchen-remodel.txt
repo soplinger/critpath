@@ -1,0 +1,15 @@
+# Kitchen remodel: a small plan to exercise every feature.
+start 2026-11-02
+calendar mon-fri
+holiday 2026-11-26 Thanksgiving
+
+task permits 5d
+task demo 2d after permits
+task cabinets 6d after demo
+task plumbing 3d after demo
+task tile 4d after plumbing, cabinets
+task paint 2d after tile
+task inspect 1d after plumbing
+milestone handover after paint, inspect
+
+due handover 2026-12-04
